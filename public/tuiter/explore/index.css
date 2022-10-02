@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: white;
+    padding-left: 16px;
+}
+
+.wd-border{
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-solidBorder {
+    border-style: solid;
+}
+
+.wd-input{
+    position : relative;
+    height: 100%;
+    color: white;
+    background-color: darkgray;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.wd-links{
+    border-bottom: 3px solid rgb(110, 118, 125, 0.6);
+}
+
+.wd-linksNav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+.wd-offsetRight{
+    padding-right: 12px;
+}
+
+a{
+    color: rgb(110, 118, 125);
+    size: 15px;
+    padding: 16px;
+    text-align: center;
+
+}
+
+.wd-highlight{
+    color: rgb(29,161,242);
+}
+
+.wd-topic{
+    color : rgb(110, 118, 125);
+    size: 13px;
+
+}
+
+.wd-title{
+    color : white;
+    size : 16px;
+}
+
+
