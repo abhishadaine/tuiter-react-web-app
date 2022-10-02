@@ -2,6 +2,7 @@
     display: flex;
     justify-content: flex-start;
     border: 1px solid gray;
+    padding: 12px;
 
 }
 
@@ -11,6 +12,7 @@
 }
 .wd-userAvatarImg{
     width: 48px;
+    height: 48px;
     border-radius: 50%;
 }
 
@@ -38,6 +40,7 @@
 .wd-bookmarkImage{
     height: 264px;
     width: 504px;
+    border-bottom: 2px solid lightgray;
 }
 
 .wd-textTitle{
@@ -72,6 +75,14 @@ i{
 .wd-count{
     color: lightgray;
     padding-left: 12px;
+}
+
+.wd-countRed{
+    color: red;
+    padding-left: 12px;
+}
+i1{
+    color: red;
 }
 
 
