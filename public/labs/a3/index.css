@@ -394,8 +394,9 @@ and (max-width: 1800px) {
         color: white;
     }
     .media-query {
-        background-color: blue;
         color: white;
+        background-color: blue;
+
     }
 }
 
