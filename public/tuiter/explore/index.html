@@ -5,28 +5,30 @@
     <title>Title</title>
     <link href="index.css"
           rel="stylesheet"/>
-    <script src="https://kit.fontawesome.com/0486b16a65.js"
-            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 </head>
-<body  >
+<body>
 
-<div >
+<div>
     <!-- search bar -->
-    <input class = "wd-input"
-           id="input"
-           type="search"
-           role="combobox"
-           placeholder="Search Twitter"
-           aria-hidden="true">
+    <div class="wd-input wd-input-wrapper wd-input-wrapper-bar">
+        <input
+               id="input"
+               placeholder="Search Twitter"
+               aria-hidden="true">
 
-    <!-- settings gear -->
-    <i class="fa-duotone fa-gear wd-offsetRight"></i>
+        <!-- settings gear -->
+        <i class="fa-light fa-gear"></i>
+    </div>
+
+
 </div>
 
 
-<div class = wd-links>
-    <nav class = "wd-linksNav" >
+<div class=wd-links>
+    <nav class="wd-linksNav">
         <a class="wd-highlight" href="For you.html">For you
         </a>
         <a href="Trending.html">Trending</a>
@@ -37,35 +39,64 @@
     </nav>
 </div>
 
-
-<div class = "wd-border">
-    <div class = "wd-topic ">
-        Trending in Sports
-    </div>
-
-    <div class = "wd-title">
-        Joe Roger
-    </div>
-
-    <div class = "wd-topic ">
-        5218 Tweets
-    </div>
-</div>
-
-
-<div class = "wd-border">
-    <div class = "wd-topic ">
-        The New York Times . Yesterday
-    </div>
-
-    <div class = "wd-title">
-        CNN's Cuomo conundrum
+<!-- Suggested Posts -->
+<!-- Post one -->
+<div class="wd-suggestedPosts">
+    <div class=wd-postContainer>
+        <div class="wd-topic ">
+            Trending in Sports
+        </div>
+        <div class="wd-title">
+            Joe Roger
+        </div>
+        <div class="wd-numTuits ">
+            5218 Tweets
+        </div>
     </div>
 </div>
 
+<!-- Post two -->
+<!-- Post NY times -->
+<div class="wd-suggestedPosts wd-flex-container">
+    <div class=wd-postContainer>
+        <div class="wd-topic ">
+            The New York Times . Yesterday
+        </div>
 
+        <div class="wd-title">
+            CNN's Cuomo conundrum
+        </div>
+    </div>
+    <img src="cnn.jpg" class="wd-image"/>
+</div>
 
+<!-- Post three -->
+<!-- Post - Covid -->
+<div class="wd-suggestedPosts wd-flex-container">
+    <div class=wd-postContainer>
+        <div class="wd-topic ">
+            Covid-19 . Live
+        </div>
+        <div class="wd-title">
+            COVID-19 News and Updates
+        </div>
+    </div>
+    <img src="covid.jpg" class="wd-image"/>
+</div>
 
+<!-- Post - Bloomberg -->
+<div class="wd-suggestedPosts wd-flex-container">
+    <div class="wd-postContainer">
+        <div class="wd-topic ">
+            Bloomberg Opinion . Yesterday
+        </div>
+
+        <div class="wd-title">
+            Thinking about getting a booster. Read this first.
+        </div>
+    </div>
+    <img src="vaccine.jpg" class="wd-image"/>
+</div>
 
 
 </body>

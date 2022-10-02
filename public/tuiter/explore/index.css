@@ -4,7 +4,7 @@ body {
     padding-left: 16px;
 }
 
-.wd-border{
+.wd-border {
     border-style: solid;
     border-color: rgb(47, 51, 54);
 }
@@ -13,33 +13,43 @@ body {
     border-style: solid;
 }
 
-.wd-input{
-    position : relative;
-    height: 100%;
-    color: white;
-    background-color: darkgray;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
 
-}
-
-.wd-links{
+.wd-links {
     border-bottom: 3px solid rgb(110, 118, 125, 0.6);
 }
 
-.wd-linksNav{
+.wd-linksNav {
     display: flex;
     justify-content: space-between;
     margin: 0px 20px;
 }
-.wd-offsetRight{
+
+.wd-offsetRight {
     padding-right: 12px;
 }
 
-a{
+.wd-postContainer {
+    display: inline-block;
+}
+
+.wd-suggestedPosts {
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.wd-imageContainer {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.wd-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a {
     color: rgb(110, 118, 125);
     size: 15px;
     padding: 16px;
@@ -47,19 +57,31 @@ a{
 
 }
 
-.wd-highlight{
-    color: rgb(29,161,242);
+.wd-highlight {
+    color: rgb(29, 161, 242);
 }
 
-.wd-topic{
-    color : rgb(110, 118, 125);
+.wd-topic {
+    color: rgb(110, 118, 125);
     size: 13px;
+    margin: 0px 0px 10px 0px;
 
 }
+.wd-title {
+    color: white;
+    size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+.wd-numTuits{
+    color: rgb(110, 118, 125);
+    size: 13px;
+    margin: 0px 0px 10px 0px;
+}
 
-.wd-title{
-    color : white;
-    size : 16px;
+.wd-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
 }
 
 
