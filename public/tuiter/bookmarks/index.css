@@ -1,0 +1,124 @@
+.wd-bookmark{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid gray;
+
+}
+
+.wd-userAvatar{
+    margin-right : 12px;
+    margin-top: 12px;
+}
+.wd-userAvatarImg{
+    width: 48px;
+    border-radius: 50%;
+}
+
+.wd-textandtitle{
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+
+
+.wd-userName{
+    font-size: 15px;
+
+}
+
+.wd-bookmarkContent{
+    color: white;
+    font-size: 15px;
+    width: 506px;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+.wd-bookmarkImage{
+    height: 264px;
+    width: 504px;
+}
+
+.wd-textTitle{
+    padding: 12px;
+    margin-top: 12px;
+    font-weight: bold;
+    size: 15px;
+
+}
+
+.wd-text{
+    padding: 12px;
+    size: 15px;
+    color: lightgray;
+}
+
+.wd-footer {
+    padding: 12px;
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    color: lightgray;
+}
+
+
+#span0{
+    color: lightgray;
+    font-size: 15px;
+}
+.wd-count{
+    color: lightgray;
+    padding-left: 12px;
+}
+
+
+
+.wd-bookmark-heading{
+    color: lightgray;
+    margin: 0px;
+    margin-top: 12px;
+
+}
+
+.wd-heading{
+    font-size: 20px;
+    margin-top: 12px;
+    color : white;
+}
+
+.wd-username{
+    font-size: 13px;
+    margin-top: 12px;
+    color : lightgray;
+}
+
+.wd-bookMark-title {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.wd-username {
+    font-size: 13px;
+    color: lightgray;
+    font-weight: 400
+}
+h3, h5, p {
+    margin: 0px 0px 10px 0px;
+}
+
+.wd-start {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.wd-main {
+    padding: 0px 20px;
+}
+
+
+
+
