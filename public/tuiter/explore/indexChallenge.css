@@ -70,6 +70,36 @@ a:active { text-decoration: none; }
     color: lightgray;
 }
 
+.nav.override-bs{
+    color: lightgray;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.nav-item.override-bs{
+    color: lightgray;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.nav-item:hover:after{
+    color: lightgray;
+    text-decoration: none;
+    text-transform: none;
+}
+.expand {
+    float: right;
+}
+
+.active1{
+    font-weight: bolder;
+
+}
+
+
+
+
+
 
 
 
