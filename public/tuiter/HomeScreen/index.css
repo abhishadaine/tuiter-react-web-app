@@ -1,0 +1,80 @@
+.wd-input-wrapper {
+    position : relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wd-input{
+    border-radius: 30px;
+    height: 100%;
+    padding : 10px 40px;
+    position: relative;
+    width: 75%;
+    border: none;
+    background-color: rgb(110, 118, 125, 0.3);
+    font-weight: 600;
+}
+
+.wd-input-wrapper #settings-icon {
+    margin-right: 25px ;
+    color: #0d6efd;
+}
+
+a {
+    color: rgb(110, 118, 125);
+    size: 15px;
+    padding: 16px;
+    text-align: center;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.wd-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border-right: 16px;
+}
+
+.btn-primary.override-bs {
+    border-radius: 20px;
+}
+
+.wd-image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border-right: 16px;
+}
+
+.expand {
+    float: right;
+}
+
+.wd-textandtitle{
+    border: 1px solid;
+    border-radius: 5px;
+    overflow: hidden;
+    border-color: darkgray;
+
+}
+.wd-bookmarkImage{
+    height: 264px;
+    width: 504px;
+    border-bottom: 1px solid darkgray;
+}
+.wd-footer {
+    padding: 12px;
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

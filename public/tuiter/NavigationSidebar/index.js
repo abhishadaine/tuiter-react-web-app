@@ -1,6 +1,5 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (activeParameter) => {
     return (`
-            
             <div class="list-group">
                 <li class="list-group-item ">
                     <div class = "row">
@@ -8,12 +7,11 @@ const NavigationSidebar = () => {
                             <i class="fa-brands fa-twitter"></i>
                         </div>
                         <div class = "col-2 d-none  d-xl-inline">
-
                         </div>
                     </div>
                 </li>
 
-                <li class="list-group-item ">
+                <li class="list-group-item ${activeParameter === 'Home' ? 'active' : ''}">
                     <div class = "row">
                         <div class = "col-1">
                             <i class="fa-solid fa-house-chimney"></i>
@@ -24,7 +22,7 @@ const NavigationSidebar = () => {
                     </div>
                 </li>
 
-                <li class="list-group-item active">
+                <li class="list-group-item ${activeParameter === 'Explore' ? 'active' : ''}">
                     <div class = "row">
                         <div class = "col-1">
                             <i class="fa-solid fa-hashtag"></i>
@@ -35,7 +33,7 @@ const NavigationSidebar = () => {
                     </div>
                 </li>
 
-                <li class="list-group-item ">
+                <li class="list-group-item ${activeParameter === 'Notifications' ? 'active' : ''}">
                     <div class = "row">
                         <div class = "col-1">
                             <i class="fa-solid fa-bell"></i>
@@ -46,7 +44,7 @@ const NavigationSidebar = () => {
                     </div>
                 </li>
 
-                <li class="list-group-item ">
+                <li class="list-group-item ${activeParameter === 'Messages' ? 'active' : ''}">
                     <div class = "row">
                         <div class = "col-1">
                             <i class="fa-solid fa-envelope"></i>
@@ -57,7 +55,7 @@ const NavigationSidebar = () => {
                     </div>
                 </li>
 
-                <li class="list-group-item ">
+                <li class="list-group-item ${activeParameter === 'Bookmarks' ? 'active' : ''}">
                     <div class = "row">
                         <div class = "col-1">
                             <i class="fa-solid fa-bookmark"></i>
@@ -68,7 +66,7 @@ const NavigationSidebar = () => {
                     </div>
                 </li>
 
-                <li class="list-group-item ">
+                <li class="list-group-item ${activeParameter === 'Lists' ? 'active' : ''}">
                     <div class = "row">
                         <div class = "col-1">
                             <i class="fa-solid fa-list"></i>
@@ -79,7 +77,7 @@ const NavigationSidebar = () => {
                     </div>
                 </li>
 
-                <li class="list-group-item ">
+                <li class="list-group-item ${activeParameter === 'Profile' ? 'active' : ''}">
                     <div class = "row">
                         <div class = "col-1">
                             <i class="fa-solid fa-user"></i>
@@ -90,7 +88,7 @@ const NavigationSidebar = () => {
                     </div>
                 </li>
 
-                <li class="list-group-item ">
+                <li class="list-group-item ${activeParameter === 'More' ? 'active' : ''}">
                     <div class = "row">
                         <div class = "col-1">
                             <i class="fa-solid fa-circle-info"></i>
