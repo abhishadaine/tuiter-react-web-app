@@ -1,5 +1,6 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import WhoToFollowList from "../WhoToFollowListItem/index.js";
+import ExploreComponent from "./ExploreComponent.js";
 /* eslint-env jquery */
 
 
@@ -13,8 +14,9 @@ function exploreComponent() {
     <!--<h3>Navigation Sidebar</h3>-->
     ${NavigationSidebar()}
    </div>
-   <div class="col-10 col-lg-7 col-xl-6 bg-primary text-white">
-    <h3>ExploreComponent</h3>
+   <div class="col-10 col-lg-7 col-xl-6 text-white">
+<!--    <h3>ExploreComponent</h3>-->
+    ${ExploreComponent()}
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 text-white">
     ${WhoToFollowList()}
