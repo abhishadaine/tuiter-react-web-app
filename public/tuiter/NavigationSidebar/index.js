@@ -1,8 +1,6 @@
 const NavigationSidebar = () => {
     return (`
-            <h3>
-            <a href="https://getbootstrap.com/docs/5.1/components/list-group/#links-and-buttons"></a>
-            </h3>
+            
             <div class="list-group">
                 <li class="list-group-item ">
                     <div class = "row">
