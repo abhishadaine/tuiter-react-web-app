@@ -24,10 +24,9 @@
 }
 
 a {
-    color: rgb(110, 118, 125);
-    size: 15px;
-    padding: 16px;
-    text-align: center;
+
+
+
 }
 
 a:link { text-decoration: none; }
@@ -44,6 +43,7 @@ a:active { text-decoration: none; }
 
 .btn-primary.override-bs {
     border-radius: 20px;
+    width: 200px;
 }
 
 .wd-image1{
@@ -59,7 +59,7 @@ a:active { text-decoration: none; }
 
 .wd-textandtitle{
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: 20px;
     overflow: hidden;
     border-color: darkgray;
 
@@ -70,10 +70,11 @@ a:active { text-decoration: none; }
     border-bottom: 1px solid darkgray;
 }
 .wd-footer {
-    padding: 12px;
+    padding: 5px;
     color: lightgray;
     display: flex;
     justify-content: space-between;
+    font-size: small;
 }
 
 

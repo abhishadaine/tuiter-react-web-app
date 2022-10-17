@@ -3,15 +3,16 @@ import PostSummaryList from "../PostSummaryList";
 
 const ExploreComponent = () => {
     return(`
-<div>
+    <div>
     <!--search bar-->
     <div class="wd-input-wrapper ">
         <input aria-hidden="true" class="wd-input "id="input" placeholder="Search Twitter">
+        <i class="m-2 position-absolute fa fa-search" aria-hidden="true" id="search-icon" style="color: rgb(110, 118, 125);"></i>
         <!-- settings gear -->
-        <a href="explore-settings.html.html"><i aria-hidden="true" class="fa fa-cog"></i></a>
+        <a href="explore-settings.html.html"><i aria-hidden="true" class="fa fa-cog" id = "settings-icon"></i></a>
     </div>
     <!--navigation links-->
-    <div>
+    <div class = "p-2">
         <ul class="nav nav-tabs nav-fill">
             <li class="nav-item">
                 <a class="nav-link active" href="#">For you</a>

@@ -1,5 +1,6 @@
 const NavigationSidebar = (activeParameter) => {
     return (`
+            <div >
             <div class="list-group">
                 <li class="list-group-item ">
                     <div class = "row">
@@ -11,99 +12,109 @@ const NavigationSidebar = (activeParameter) => {
                     </div>
                 </li>
 
+
                 <li class="list-group-item ${activeParameter === 'Home' ? 'active' : ''}">
                     <div class = "row">
-                        <div class = "col-1">
-                            <i class="fa-solid fa-house-chimney"></i>
-                        </div>
-                        <div class = "col-2 d-none  d-xl-inline">
-                            Home
-                        </div>
+                    <a href="../HomeScreen/index.html">
+                    <span>
+                    <i class="fa-solid fa-house-chimney" style="color:white;"></i>
+                    <span class="m-2 d-none d-xl-inline" style="color: white">Home</span>
+                    </span>
+                    </a>
                     </div>
                 </li>
 
+                
+
                 <li class="list-group-item ${activeParameter === 'Explore' ? 'active' : ''}">
                     <div class = "row">
-                        <div class = "col-1">
-                            <i class="fa-solid fa-hashtag"></i>
-                        </div>
-                        <div class = "col-2 d-none  d-xl-inline">
-                            Explore
-                        </div>
+                    
+                    <a href="../exploreScreen/index.html">
+                    <span>
+                    <i class="fa-solid fa-hashtag" style="color:white;"></i>
+                    <span class="m-2 d-none d-xl-inline" style="color: white">Explore</span>
+                    </span>
+                    </a>
+                  
                     </div>
                 </li>
 
                 <li class="list-group-item ${activeParameter === 'Notifications' ? 'active' : ''}">
                     <div class = "row">
-                        <div class = "col-1">
-                            <i class="fa-solid fa-bell"></i>
-                        </div>
-                        <div class = "col-2 d-none  d-xl-inline">
-                            Notifications
-                        </div>
+                    <a href="../exploreScreen/index.html">
+                    <span>
+                    <i class="fa-solid fa-bell" style="color:white;"></i>
+                    <span class="m-2 d-none d-xl-inline" style="color: white">Notifications</span>
+                    </span>
+                    </a>
+                       
                     </div>
                 </li>
 
                 <li class="list-group-item ${activeParameter === 'Messages' ? 'active' : ''}">
                     <div class = "row">
-                        <div class = "col-1">
-                            <i class="fa-solid fa-envelope"></i>
-                        </div>
-                        <div class = "col-2 d-none  d-xl-inline">
-                            Messages
-                        </div>
+                    
+                     <a href="../exploreScreen/index.html">
+                    <span>
+                    <i class="fa-solid fa-envelope" style="color:white;"></i>
+                    <span class="m-2 d-none d-xl-inline" style="color: white">Messages</span>
+                    </span>
+                    </a>
+                        
                     </div>
                 </li>
 
                 <li class="list-group-item ${activeParameter === 'Bookmarks' ? 'active' : ''}">
                     <div class = "row">
-                        <div class = "col-1">
-                            <i class="fa-solid fa-bookmark"></i>
-                        </div>
-                        <div class = "col-2 d-none  d-xl-inline">
-                            Bookmarks
-                        </div>
+                    <a href="../exploreScreen/index.html">
+                    <span>
+                    <i class="fa-solid fa-bookmark" style="color:white;"></i>
+                    <span class="m-2 d-none d-xl-inline" style="color: white">Bookmarks</span>
+                    </span>
+                    </a>
+                    
                     </div>
                 </li>
 
                 <li class="list-group-item ${activeParameter === 'Lists' ? 'active' : ''}">
                     <div class = "row">
-                        <div class = "col-1">
-                            <i class="fa-solid fa-list"></i>
-                        </div>
-                        <div class = "col-2 d-none  d-xl-inline">
-                            Lists
-                        </div>
+                    <a href="../exploreScreen/index.html">
+                    <span>
+                    <i class="fa-solid fa-list" style="color:white;"></i>
+                    <span class="m-2 d-none d-xl-inline" style="color: white">Lists</span>
+                    </span>
+                    </a>
+                       
                     </div>
                 </li>
 
                 <li class="list-group-item ${activeParameter === 'Profile' ? 'active' : ''}">
                     <div class = "row">
-                        <div class = "col-1">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-                        <div class = "col-2 d-none  d-xl-inline">
-                            Profile
-                        </div>
+                    <a href="../exploreScreen/index.html">
+                    <span>
+                    <i class="fa-solid fa-user" style="color:white;"></i>
+                    <span class="m-2 d-none d-xl-inline" style="color: white">Profile</span>
+                    </span>
+                    </a>
+                        
                     </div>
                 </li>
 
                 <li class="list-group-item ${activeParameter === 'More' ? 'active' : ''}">
                     <div class = "row">
-                        <div class = "col-1">
-                            <i class="fa-solid fa-circle-info"></i>
-                        </div>
-                        <div class = "col-2 d-none  d-xl-inline">
-                            More
-                        </div>
+                    <a href="../exploreScreen/index.html">
+                    <span>
+                    <i class="fa-solid fa-circle-info" style="color:white;"></i>
+                    <span class="m-2 d-none d-xl-inline" style="color: white">More</span>
+                    </span>
+                    </a>
+                        
                     </div>
                 </li>
-
-                </br>
-                <button class="btn btn-primary override-bs">
-                    Tweet
-                </button>
-                <br/>
+            </div >
+            <button class="mt-2 btn btn-primary rounded-pill w-100">Tweet</button>
+            
+                
             </div>
  `);
 }

@@ -12,8 +12,8 @@ const PostSummaryItem = (post) => {
                         <h><strong>${post.title}</strong></h>
                 </div>
             </div>
-            <div class = "col-2">
-                <img class="wd-image" src=${post.image}/>
+            <div class = "col-2 ">
+                <img class="wd-image p-3" src=${post.image}/>
             </div>
         </div>
     </li>

@@ -5,9 +5,9 @@ const HomeComponent = (post) => {
         <li class="list-group-item">
         <div class = "row ">
             <div class = "col-1">
-            <img class="wd-image1" src=${post.avatar}/>    
+            <img class="wd-image1 p-2" src=${post.avatar}/>    
             </div>
-            <div class = "col-10">
+            <div class = "col-10 p-2">
                 <div>
                     <h><strong>${post.name}</strong></h>
                     <i aria-hidden="true" class="fa fa-check-circle"></i>
@@ -19,11 +19,11 @@ const HomeComponent = (post) => {
                     <div>
                         <img src=${post.postImage} class="wd-bookmarkImage">
                     </div>
-                    <div class="wd-textTitle">
+                    <div class="wd-textTitle p-2">
                         ${post.postTitle}
                     </div>
 
-                    <div class="text-muted">
+                    <div class="text-muted p-2">
                     ${post.postText}
                         </div>
                 </div>

@@ -3,10 +3,10 @@ const WhoToFollowListItem = (who) => {
     return (`
     <li class="list-group-item ">
         <div class = "row">
-            <div class = "col-3">
+            <div class = "col-2">
                 <img class="wd-image1" src=${who.avatarIcon}/>
                     </div>
-                        <div class = "col-5">
+                        <div class = "col-7">
                             <div>
                                 <h><strong>${who.userName} <i aria-hidden="true" class="fa fa-check-circle"></i></strong>
                                 </h>
@@ -14,8 +14,8 @@ const WhoToFollowListItem = (who) => {
                                 <h>@${who.handle}</h>
                             </div>
                         </div>
-                        <div class = "col-1">
-                            <button class="btn btn-primary override-bs">
+                        <div class = "col-2">
+                            <button class="btn btn-primary change">
                                 Follow
                             </button>
                         </div>
