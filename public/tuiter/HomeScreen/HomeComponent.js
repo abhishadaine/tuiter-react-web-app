@@ -27,13 +27,13 @@ const HomeComponent = (post) => {
                     ${post.postText}
                         </div>
                 </div>
-                <div class="wd-footer">
-                    <a href="#"><i class="fa fa-comments" aria-hidden="true"><span> 45</span></i></a>
-                    <a href="#"><i class="fa fa-retweet" aria-hidden="true"><span>  145</span></i></a>
+                <div class="wd-footer" >
+                    <a href="#"><i class="fa fa-comments" aria-hidden="true" style="color: white;"><span> 45</span></i></a>
+                    <a href="#"><i class="fa fa-retweet" aria-hidden="true" style="color: white;"><span>  145</span></i></a>
                     <a href="#">
-                        <i1 class="fa fa-heart" aria-hidden="true"><span class="wd-countRed">   245</span></i1>
+                        <i1 class="fa fa-heart" aria-hidden="true" style="color: white;"><span >   245</span></i1>
                     </a>
-                    <a href="#"><i class="fa fa-upload" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-upload" aria-hidden="true" style="color: white;"></i></a>
                 </div>
             </div>
         </div>
