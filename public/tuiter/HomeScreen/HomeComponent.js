@@ -28,7 +28,7 @@ const HomeComponent = (post) => {
                         </div>
                 </div>
                 <div class="wd-footer" >
-                    <a href="#"><i class="fa fa-comments" aria-hidden="true" style="color: white;"><span> 45</span></i></a>
+                    <a href="#"><i class="fa fa-comments" aria-hidden="true" style="color: lightgrey;"><span> 45</span></i></a>
                     <a href="#"><i class="fa fa-retweet" aria-hidden="true" style="color: white;"><span>  145</span></i></a>
                     <a href="#">
                         <i1 class="fa fa-heart" aria-hidden="true" style="color: white;"><span >   245</span></i1>
