@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector}
     from "react-redux";
-import {addTodo}
+import {addTodo, deleteTodo}
     from "./reducers/todos-reducer";
 const Todos = () => {
     const todos =
@@ -11,6 +11,10 @@ const Todos = () => {
     const createTodoClickHandler = () => {
         dispatch(addTodo(todo))
     }
+    const deleteTodoClickHandler = (index) => {
+        dispatch(deleteTodo(index))
+    }
+
 
     const todoChangeHandler = (event) => {
         const doValue = event.target.value;
@@ -24,23 +28,32 @@ const Todos = () => {
         <>
             <h3>Todos</h3>
             <ul className="list-group">
-                {
-                    todos.map(todo =>
-                        <li className="list-group-item">
-                            <button onClick={createTodoClickHandler}
-                                    className="btn btn-primary w-25
+                <li className="list-group-item">
+                    <button onClick={createTodoClickHandler}
+                            className="btn btn-primary w-25
                           float-end">
-                                Create</button>
+                        Create</button>
+                    <input
+                        onChange={todoChangeHandler}
+                        value={todo.do}
+                        className="form-control w-75"/>
+                </li>
+                {
+                    todos.map((todo, index) =>
+                        <li className="list-group-item">
+                            <button onClick={() =>
+                                deleteTodoClickHandler(index)}
+                                    className="btn btn-danger
+                                        float-end ms-2">
+                                Delete
+                            </button>
 
-                            <input
-                                onChange={todoChangeHandler}
-                                value={todo.do}
-                                className="form-control w-75"/>
+                            {todo.do}
                         </li>
-
                     )
                 }
             </ul>
+
         </>
     );
 };

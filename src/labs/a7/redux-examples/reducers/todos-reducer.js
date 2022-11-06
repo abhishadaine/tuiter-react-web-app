@@ -24,10 +24,10 @@ const todosSlice = createSlice({
                 done: false
             });
         },
-        // deleteTodo(state, action) {
-        //     const index = action.payload
-        //     state.splice(index, 1)
-        // },
+        deleteTodo(state, action) {
+            const index = action.payload
+            state.splice(index, 1)
+        },
 
     }
 
