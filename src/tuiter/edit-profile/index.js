@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
 import { updateProfile } from "../reducers/profile-reducer";
 import { useNavigate } from "react-router-dom";
 import "../profile/index.css"
@@ -15,13 +14,12 @@ const EditProfileComponent = () => {
 
     let navigate = useNavigate();
     const dispatch = useDispatch();
+    const closeHandler = () => {
+        navigate("/tuiter/profile");
+    }
     const saveClickHandler = () => {
         const updatedData = {name: name, bio: bio, location: location, website: website, dateOfBirth: dateOfBirth};
         dispatch(updateProfile(updatedData))
-        navigate("/tuiter/profile");
-    }
-
-    const closeHandler = () => {
         navigate("/tuiter/profile");
     }
 
@@ -29,7 +27,7 @@ const EditProfileComponent = () => {
         <div className="border">
             <div className="row" >
                 <div className="col-1 ">
-                    <i className="bi bi-x-lg float-end" onClick={() => closeHandler()}></i>
+                    <i className="fa-solid fa-xmark" aria-hidden="true" onClick={() => closeHandler()}></i>
                 </div>
                 <div className="col-8">
                     <h4>Edit Profile</h4>
