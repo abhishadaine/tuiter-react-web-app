@@ -3,9 +3,14 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import TuitStats from "./TuitStats";
 import "../home/index.css"
 import {useDispatch} from "react-redux";
+import {deleteTuit} from "./tuits-reducer";
+
 
 const  TuitItem = ({tuit}) => {
-
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
     return(
         <li className="list-group-item">
             <div className="row">
@@ -24,7 +29,12 @@ const  TuitItem = ({tuit}) => {
                     </div>
                     <TuitStats tuit={tuit}/>
                 </div>
+                <div>
+                    <i className="bi bi-x-lg float-end"
+                       onClick={() => deleteTuitHandler(tuit._id)}></i>
+                </div>
             </div>
+
         </li>
     )
 }
