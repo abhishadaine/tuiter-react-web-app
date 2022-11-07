@@ -62,7 +62,7 @@ const EditProfileComponent = () => {
                 <input className="form-control"
                        value={location} onChange={(event) => setLocation(event.target.value)}/>
 
-                <label for="website">Location</label>
+                <label for="website">Website</label>
                 <input className="form-control"
                        value={website} onChange={(event) => setWebsite(event.target.value)}/>
 
